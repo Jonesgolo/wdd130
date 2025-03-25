@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
-    background-color:#dacdcd;
+    background-color:#077187;
     color: #333;
     padding: 20px;
 }
@@ -23,6 +23,7 @@ main {
 }
 .hero {
     position: relative;
+    color: #CF1F25;
     margin: 10px 0;
     padding: 0;
     text-align: center;
@@ -33,16 +34,17 @@ main {
     height: 25%;
     object-fit: cover;    
 }
-.h1 {
+.hero h1 {
     position: absolute;
     top: 10px;
     left: 30px;
-    color: #FF0090;
+    color: #CF1F25;
     font-size: 2.5em;
+    text-align: center;
 }
 .hero article {
     position: absolute;
-    border: #333 solid 1px;
+    border: #333 solid 2px;
     background: #f6edd078;
     bottom: 20px;
     left: 30px;
