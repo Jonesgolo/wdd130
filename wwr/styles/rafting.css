@@ -13,10 +13,33 @@ body {
     padding: 20px;
 }
 header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
     background: #333;
     color: #FF0090;
     padding: 10px 0;
-    text-align: left;
+}
+header img {
+    max-width: 100px;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0;
+   
+}
+nav a:hover {
+    color: #FF0090;
+    text-decoration: none;
+    font-weight: bold;
 }
 main {
     margin: 20px 0;
@@ -72,6 +95,7 @@ footer {
     box-decoration-break: clone;
     color: #FF0090;
     padding: 10px 0;
-    text-align: left;
+    text-align: right;
+    text-decoration: none;
 
 }
