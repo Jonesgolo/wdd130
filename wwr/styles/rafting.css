@@ -14,15 +14,29 @@ body {
     color: #333;
     padding: 0;
 }
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    background: #5e4f90;
+    color: #FF0090;
+    padding: 10px 0;
+    background-origin: padding-box;
+    border: bisque solid 5px;
+} 
 
 header img {
-    max-width: 100px;
+    max-width: 100px;    
 }
 nav ul {
     display: flex;
+    flex-direction: row;
     gap: 20px;
     list-style: none;
     padding: 0;
+    justify-content: space-between;
     text-align: center;
 }
 nav a {
@@ -39,17 +53,6 @@ nav a:hover {
 
 main {
     margin: 20px 0;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-between;
-    background: #5e4f90;
-    color: #FF0090;
-    padding: 10px 0;
-    background-origin: padding-box;
 }
 
 .hero {
@@ -115,7 +118,7 @@ header {
     color: #281fcf; /* Ensure text contrast */
     text-align: center;
     font-size: 1em;
-    background-color: white(0, 0, 0, 0.8); /* Semi-transparent background */
+    background-color: /* Semi-transparent background */
  }
 
 .article p {
@@ -129,6 +132,39 @@ header {
     text-align: right;
     font-size: 1.5rem;
 } 
+.history {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+.adventures awaits you{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  figure {
+    text-align: center;
+  }
+  figcaption {
+    font-size: 14px;
+    color: gray;
+  }
+  
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
 footer {
     display: flex;
     justify-content: space-between;
