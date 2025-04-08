@@ -79,7 +79,7 @@ main {
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Ensures readability */
+    background-color:(0, 0, 0, 0.5); /* Ensures readability */
     padding: 10px;
     border-radius: 5px;
 }
@@ -118,8 +118,8 @@ main {
     color: #281fcf; /* Ensure text contrast */
     text-align: center;
     font-size: 1em;
-    background-color: /* Semi-transparent background */
- }
+    background-color:white /* Semi-transparent background */
+}
 
 .article p {
     position: absolute;
@@ -129,41 +129,39 @@ main {
     background-color: rgba(125, 105, 105, 0.5); /* Semi-transparent background */
     padding: 10px 0;
     border-radius: 5px;
-    text-align: right;
+    text-align: center;
     font-size: 1.5rem;
 } 
-.history {
-    display: grid;
+.history-layout{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 20px;
     background-color: #fff; /* White background for sections */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    box-shadow: 0 4px 8px #077187; /* Optional shadow for depth */
 }
-.adventures awaits you{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-  }
-  figure {
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.adventure-gallery figure {
+    flex: 1 1 calc(20% - 1rem); /* Adjusts to fit 5 images horizontally */
     text-align: center;
-  }
-  figcaption {
-    font-size: 14px;
-    color: gray;
-  }
-  
-figure {
     margin: 0;
-    padding: 0;
-    text-align: center;
 }
-figcaption {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 5px;
+
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 footer {
     display: flex;
