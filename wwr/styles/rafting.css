@@ -184,6 +184,12 @@ section {
     color: #333;
     margin-bottom: 20px;
 }
+.map-iframe {
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+}
 .team {
     display: flex;
     justify-content: space-around;
