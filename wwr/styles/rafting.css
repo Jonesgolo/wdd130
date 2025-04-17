@@ -289,6 +289,16 @@ button {
     padding: 20px;
     background: #90e0ef;
 }
+.aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1pc solid rgb (0 0 0 / 0.2); /* 1 */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    word-wrap: break-word;
+}
 
 footer {
     display: flex;
