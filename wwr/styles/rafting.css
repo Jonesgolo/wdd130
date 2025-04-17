@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
-    background-color:#FF0090;
+    background-color:#c6bfc3;
     color: #333;
     padding: 0;
 }
@@ -213,6 +213,81 @@ button {
     padding: 10px;
     border: none;
     cursor: pointer;
+}
+
+.trip-descriptions {
+    display: flex;
+    gap: 15px;
+}
+
+.trip-descriptions figure {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.trip-descriptions img {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background: #0073e6;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.newsletter {
+    margin: 20px auto;
+    padding: 20px;
+    background: #caf0f8;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.newsletter form input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+button {
+    background: #0077b6;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.about {
+    padding: 20px;
+    background: #90e0ef;
 }
 
 footer {
